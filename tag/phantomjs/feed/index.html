@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>phantomJS &#8211; Dharma</title>
+	<atom:link href="https://www.katagena.com/dharma/tag/phantomjs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.katagena.com/dharma</link>
+	<description>Jean-Avit Promis</description>
+	<lastBuildDate>Sat, 28 Jan 2017 22:04:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Performances monitoring</title>
+		<link>https://www.katagena.com/dharma/2014/03/21/performances-monitoring/</link>
+		<pubDate>Fri, 21 Mar 2014 11:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[Jah]]></dc:creator>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[monitoring]]></category>
+		<category><![CDATA[performances]]></category>
+		<category><![CDATA[phantomJS]]></category>
+
+		<guid isPermaLink="false">http://www.katagena.com/dharma/?p=481</guid>
+		<description><![CDATA[If you want to monitor a website you can setup easily a regular cron to check the performances. You just need PhantomJS which is a headless browser. For a 64bits version: if ! which bzip2 >/dev/null; then apt-get install bzip2 fi if ! [ -f "/usr/local/bin/phantomjs" ]; then cd /tmp/ wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-i686.tar.bz2 tar xvf phantomjs-1.9.2-linux-i686.tar.bz2 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>If you want to monitor a website you can setup easily a regular cron to check the performances.</p>
+<p>You just need <a href="http://phantomjs.org/">PhantomJS</a> which is a headless browser. For a 64bits version:</p>
+<pre><code>
+if ! which bzip2 >/dev/null; then
+    apt-get install bzip2
+fi
+if ! [ -f "/usr/local/bin/phantomjs" ]; then
+	cd /tmp/
+	wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-i686.tar.bz2
+	tar xvf phantomjs-1.9.2-linux-i686.tar.bz2
+	cp phantomjs-1.9.2-linux-i686/bin/phantomjs /usr/local/bin/
+	chmod +x /usr/local/bin/phantomjs
+fi
+</code></pre>
+<p>Then we will use <a href="https://github.com/jamesgpearce/confess">confess.js</a> script with PhantomJS. Download the confess.js.<br />
+Create a basic configuration file config.json:</p>
+<pre><code>
+{
+  "task": "appcache",
+  "userAgent": "chrome",
+  "userAgentAliases": {
+    "iphone": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7",
+    "android": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "chrome": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11"
+  },
+  "wait": 0,
+  "consolePrefix": "#",
+  "verbose": true,
+  "appcache": {
+    "urlsFromDocument": true,
+    "urlsFromRequests": false,
+    "cacheFilter": ".*",
+    "networkFilter": null
+  }
+}
+</code></pre>
+<p>Then you can launch phantomJS:</p>
+<pre><code>/usr/local/bin/phantomjs confess.js http://www.google.com/ performance config.json</code></pre>
+<p>You can combine this to receive a mail alert when loading time rise above a limit:</p>
+<pre><code>
+if ! which mail >/dev/null; then
+    apt-get install mailutils
+fi
+
+/usr/local/bin/phantomjs confess.js http://www.google.com/ performance config.json > daily-report.txt
+
+TOTAL=`cat daily-report.txt|grep 'Elapsed load time:'|sed 's/Elapsed load time:[ ]*//g'|sed 's/ms//g'`
+if [ $TOTAL -gt 8000 ];then
+	mail -s "[ALERT][Monitoring] - Loading time $TOTAL ms" $MAIL < daily-report.txt
+fi
+
+rm daily-report.txt
+</code></pre>
+<p>Add all in a script, create a cron and you have a basic monitoring system.</p>
+ <!-- Easy Plugin for AdSense Unfiltered [count: 1 is not less than 1] -->]]></content:encoded>
+			</item>
+	</channel>
+</rss>
