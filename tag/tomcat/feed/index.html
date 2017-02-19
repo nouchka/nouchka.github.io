@@ -8,18 +8,18 @@
 	>
 
 <channel>
-	<title>tomcat &#8211; Dharma</title>
-	<atom:link href="https://www.katagena.com/dharma/tag/tomcat/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.katagena.com/dharma</link>
+	<title>tomcat &#8211; Nouchka</title>
+	<atom:link href="http://secure.sdsix.lan/dharma/tag/tomcat/feed/" rel="self" type="application/rss+xml" />
+	<link>http://secure.sdsix.lan/dharma</link>
 	<description>Jean-Avit Promis</description>
-	<lastBuildDate>Sat, 28 Jan 2017 22:04:23 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 18 Feb 2017 13:52:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.7.2</generator>
 	<item>
 		<title>Bug Munin+tomcat</title>
-		<link>https://www.katagena.com/dharma/2011/04/20/bug-munintomcat/</link>
+		<link>http://secure.sdsix.lan/dharma/2011/04/20/bug-munintomcat/</link>
 		<pubDate>Wed, 20 Apr 2011 22:27:48 +0000</pubDate>
 		<dc:creator><![CDATA[Jah]]></dc:creator>
 				<category><![CDATA[Tech]]></category>
@@ -29,22 +29,7 @@
 
 		<guid isPermaLink="false">http://www.katagena.com/dharma/?p=433</guid>
 		<description><![CDATA[Bug munin des scripts pour tomcat]]></description>
-				<content:encoded><![CDATA[
-<!-- Easy Plugin for AdSense V8.67 -->
-<!-- [leadin: 0 urCount: 0 urMax: 0] -->
-<div class="ezAdsense adsense adsense-leadin" style="float:right;margin:12px;"><script type="text/javascript"><!--
-google_ad_client = "ca-pub-4551463433841800";
-/* Dharma */
-google_ad_slot = "6240321067";
-google_ad_width = 234;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
-<!-- Easy Plugin for AdSense V8.67 -->
-<p>Munin permet de monitorer différents serveurs via des scripts (en perl ou autres). Parmi les scripts disponibles, 4 scripts permettent de monitorer un serveur tomcat.</p>
+				<content:encoded><![CDATA[<p>Munin permet de monitorer différents serveurs via des scripts (en perl ou autres). Parmi les scripts disponibles, 4 scripts permettent de monitorer un serveur tomcat.</p>
 <p>Cependant les versions anciennes de ces scripts comportent un bug <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=543523">http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=543523</a>.</p>
 <p>Le script  appelle l&#8217;url /manager/status?XML=true sur le serveur tomcat (équivalent du server-status apache) et parse les informations. Or la structure du fichier xml est différente de celle attendue par le script. Le problème se situe au niveau du tag connector, &#8216;http-$PORT&#8217; au lieu de &#8216;http$PORT&#8217;</p>
 <p>En ajoutant le tiret dans les 3 scripts buggés (ou en récupérant les dernières versions), ces derniers fonctionnent.</p>
