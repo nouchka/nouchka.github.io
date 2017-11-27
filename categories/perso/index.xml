@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perso on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</title>
+    <link>https://nouchka.katagena.com/categories/perso/</link>
+    <description>Recent content in Perso on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jan 2016 13:01:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://nouchka.katagena.com/categories/perso/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resolutions</title>
+      <link>https://nouchka.katagena.com/2016/01/10/resolutions/</link>
+      <pubDate>Sun, 10 Jan 2016 13:01:58 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2016/01/10/resolutions/</guid>
+      <description>Find a new job or at least check my options. (Already working on my CV)
+Eat less and less meat and cook vegan meal. (Already spend week without meat)
+Pass my symfony certification and my yachtmaster qualification. (Book finished)
+Continue learning swedish, work my english and my german. (Swedish 1&amp;frasl;3 done on Duolingo)
+Contribute more on github. (First docker container published)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</title>
+    <link>https://nouchka.katagena.com/categories/tech/</link>
+    <description>Recent content in Tech on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 14:40:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://nouchka.katagena.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HackMyResume and new job search</title>
+      <link>https://nouchka.katagena.com/2016/05/05/hackmyresume-and-new-job-search/</link>
+      <pubDate>Thu, 05 May 2016 14:40:55 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2016/05/05/hackmyresume-and-new-job-search/</guid>
+      <description>New year, new challenge, I will quit my current company in september.
+As I&amp;#8217;m looking for a new job, I worked on my resume again and I found http://please.hackmyresume.com/ website.
+The idea behind is to use a json file for the data using https://github.com/jsonresume/resume-schema json format.
+Then you use hackmyresume to apply theme for web or for files (ex PDF), using node packages.
+It creates that kind of result http://japromis.katagena.com/ based on a simple json file https://raw.</description>
+    </item>
+    
+    <item>
+      <title>VPN and proxy on Ubuntu with NetworkManager</title>
+      <link>https://nouchka.katagena.com/2014/07/12/vpn-and-proxy-on-ubuntu-with-networkmanager/</link>
+      <pubDate>Sat, 12 Jul 2014 11:08:39 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/07/12/vpn-and-proxy-on-ubuntu-with-networkmanager/</guid>
+      <description>If you are using a VPN sometimes and you want to change the proxy settings when you launch your VPN:
+Create a file in directory /etc/NetworkManager/dispatcher.d/
+/etc/NetworkManager/dispatcher.d/20proxyvpn
+#!/bin/bash IF=$1 STATUS=$2 if [ &#34;$IF&#34; == &#34;tun0&#34; ] then case &#34;$2&#34; in vpn-up) logger -s &#34;$0 Script up triggered&#34; gsettings set org.gnome.system.proxy autoconfig-url &#34;http://yourdomain.lan/proxy.pac&#34; gsettings set org.gnome.system.proxy mode &#34;auto&#34; ;; vpn-down) logger -s &#34;$0 Script down triggered&#34; gsettings set org.gnome.system.proxy mode &#34;none&#34; ;; pre-up) ;; post-down) ;; *) ;; esac fi  This bash script will be trigger when a connexion is up or down.</description>
+    </item>
+    
+    <item>
+      <title>Socket.io</title>
+      <link>https://nouchka.katagena.com/2014/05/02/socket-io/</link>
+      <pubDate>Fri, 02 May 2014 15:58:46 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/05/02/socket-io/</guid>
+      <description>Socket.io is a javascript web application on nodejs. It uses diffents transports methods depending on the browser.
+I use it on 2 purposes:
+&amp;#8211; make browser client refresh some ressources when there are a change: a news section for example.
+&amp;#8211; alert when there are simultaneous change of a ressource: a change on a planning (http://www.katagena.com/setagaya/demo.php)
+I have 2 projects using this technology:
+&amp;#8211; a dashboard with live status from different server: uptime values will refresh live</description>
+    </item>
+    
+    <item>
+      <title>Performances monitoring</title>
+      <link>https://nouchka.katagena.com/2014/03/21/performances-monitoring/</link>
+      <pubDate>Fri, 21 Mar 2014 11:39:10 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/03/21/performances-monitoring/</guid>
+      <description>If you want to monitor a website you can setup easily a regular cron to check the performances.
+You just need PhantomJS which is a headless browser. For a 64bits version:
+if ! which bzip2 &amp;gt;/dev/null; then apt-get install bzip2 fi if ! [ -f &amp;quot;/usr/local/bin/phantomjs&amp;quot; ]; then cd /tmp/ wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-i686.tar.bz2 tar xvf phantomjs-1.9.2-linux-i686.tar.bz2 cp phantomjs-1.9.2-linux-i686/bin/phantomjs /usr/local/bin/ chmod +x /usr/local/bin/phantomjs fi  Then we will use confess.js script with PhantomJS.</description>
+    </item>
+    
+    <item>
+      <title>Debian package md5sum</title>
+      <link>https://nouchka.katagena.com/2014/03/04/debian-package-md5sum/</link>
+      <pubDate>Tue, 04 Mar 2014 10:33:08 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/03/04/debian-package-md5sum/</guid>
+      <description>If you manage a debian package, you sometimes need to restart a service after the setup. It&amp;#8217;s generally done in the postinst script. But sometimes you didn&amp;#8217;t have change configuration files and you don&amp;#8217;t want to restart the service.
+Here a simple example where postinst script will check if configuration files have changed and restart service only when necessary.
+In this example, my package contains virtual hosts for apache server. I will make a md5sum of the files before the setup of my new version of the package.</description>
+    </item>
+    
+    <item>
+      <title>IPhone Tracker and Android</title>
+      <link>https://nouchka.katagena.com/2011/04/22/iphone-tracker-and-android/</link>
+      <pubDate>Fri, 22 Apr 2011 08:29:17 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2011/04/22/iphone-tracker-and-android/</guid>
+      <description>Cette semaine a été marquée par la révélation sur le fichier consolidated.db présent sur les IPhones contenant les localisations du téléphone.
+Pour ceux intéréssés par visualiser leurs données, la page http://www.courbis.fr/Localisation-iPhone-votre.html détaille bien la structure de la table sqlite en question et parser le fichier est assez simple avec un petit script en php.
+Dans la foulée de cette révélation, des articles ont rapidement indiqué qu&amp;#8217;Android faisait de même et des projets permettent également de parcourir ces informations (https://github.</description>
+    </item>
+    
+    <item>
+      <title>Bug Munin&#43;tomcat</title>
+      <link>https://nouchka.katagena.com/2011/04/20/bug-munintomcat/</link>
+      <pubDate>Wed, 20 Apr 2011 22:27:48 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2011/04/20/bug-munintomcat/</guid>
+      <description>Munin permet de monitorer différents serveurs via des scripts (en perl ou autres). Parmi les scripts disponibles, 4 scripts permettent de monitorer un serveur tomcat.
+Cependant les versions anciennes de ces scripts comportent un bug http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=543523.
+Le script appelle l&amp;#8217;url /manager/status?XML=true sur le serveur tomcat (équivalent du server-status apache) et parse les informations. Or la structure du fichier xml est différente de celle attendue par le script. Le problème se situe au niveau du tag connector, &amp;#8216;http-$PORT&amp;#8217; au lieu de &amp;#8216;http$PORT&amp;#8217;</description>
+    </item>
+    
+    <item>
+      <title>VAIO</title>
+      <link>https://nouchka.katagena.com/2010/04/26/vaio/</link>
+      <pubDate>Mon, 26 Apr 2010 19:49:25 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/04/26/vaio/</guid>
+      <description>Dernier achat : Sony &amp;#8211; VAIO VPC-F11E4E
+A tester bientôt avec la dernière ubuntu</description>
+    </item>
+    
+    <item>
+      <title>DAViCal</title>
+      <link>https://nouchka.katagena.com/2010/03/18/davical/</link>
+      <pubDate>Thu, 18 Mar 2010 22:44:01 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/03/18/davical/</guid>
+      <description>Disponible en package debian
+Nécessite une base de données postgreSQL
+Interface d&amp;#8217;admin web. Possibilités d&amp;#8217;importer des calendriers existants.
+Compatible multi-plateformes. Multi-users. Calendriers privés ou publiques.
+http://www.davical.org/</description>
+    </item>
+    
+  </channel>
+</rss>

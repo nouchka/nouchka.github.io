@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</title>
+    <link>https://nouchka.katagena.com/post/</link>
+    <description>Recent content in Posts on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jan 2017 22:04:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://nouchka.katagena.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hearthstone – Casual Gaming</title>
+      <link>https://nouchka.katagena.com/2017/01/28/hearthstone-casual-gaming/</link>
+      <pubDate>Sat, 28 Jan 2017 22:04:23 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2017/01/28/hearthstone-casual-gaming/</guid>
+      <description>Astuces pour débuter sur Hearthstone:
+ commencer par jouer toutes les classes pour découvrir le jeu et obtenir les cartes de base faire les bras de fer chaque semaine sachant qu&amp;#8217;ils rapportent un paquet classique et qu&amp;#8217;ils ne nécessitent pas forcément d&amp;#8217;avoir des cartes faire les quêtes chaque jour les arènes nécessitent un minimum de victoires pour être rentables, elle sont donc à éviter quand on débute même si elles permettent de voir toutes les cartes acheter en priorité des paquets classiques, les cartes obtenues seront toujours utilisées contrairement aux cartes des extensions qui sont exclues du mode standard après 2 ans jouer des decks low cost contenant les premières cartes obtenues crafter une carte coûte 4 fois plus que son désenchantement, il est donc plus intéressant d&amp;#8217;attendre d&amp;#8217;obtenir la carte dans un paquet les cartes peuvent être nerf à la prochaine extension et rapporter plus en désenchantement, il est donc intéressant de conserver les cartes si on n&amp;#8217;a pas besoin de crafter quoi que ce soit quand on a une majorité des cartes classiques, acheter les paquets des extensions les plus récentes car les cartes seront utilisables plus longtemps ne pas chercher à crafter toutes les cartes, certaines ne sont pas utiles crafter en priorité les légendaires standards les plus utilisées (ex https://www.</description>
+    </item>
+    
+    <item>
+      <title>Pokemon GO – Casual Gaming</title>
+      <link>https://nouchka.katagena.com/2017/01/25/pokemon-go-casual-gaming/</link>
+      <pubDate>Wed, 25 Jan 2017 15:35:01 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2017/01/25/pokemon-go-casual-gaming/</guid>
+      <description>Astuces pour jouer à Pokemon GO sans avoir à y passer un temps trop important:
+ jouer de préférence pendant les events (Noel, Halloween, etc&amp;#8230;) car en général des récompenses sont proposées. chaque jour activer au moins un pokestop et attraper un pokemon pour avoir le bonus journalier ne pas acheter des pokeballs vous les trouverez facilement ou d&amp;#8217;extensions de stockage car non nécessaire en mode casual privilégier les pokemons: aquali, voltali, pyroli et Noadkoko.</description>
+    </item>
+    
+    <item>
+      <title>HackMyResume and new job search</title>
+      <link>https://nouchka.katagena.com/2016/05/05/hackmyresume-and-new-job-search/</link>
+      <pubDate>Thu, 05 May 2016 14:40:55 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2016/05/05/hackmyresume-and-new-job-search/</guid>
+      <description>New year, new challenge, I will quit my current company in september.
+As I&amp;#8217;m looking for a new job, I worked on my resume again and I found http://please.hackmyresume.com/ website.
+The idea behind is to use a json file for the data using https://github.com/jsonresume/resume-schema json format.
+Then you use hackmyresume to apply theme for web or for files (ex PDF), using node packages.
+It creates that kind of result http://japromis.katagena.com/ based on a simple json file https://raw.</description>
+    </item>
+    
+    <item>
+      <title>GGT Japon</title>
+      <link>https://nouchka.katagena.com/2016/04/20/ggt-japon/</link>
+      <pubDate>Wed, 20 Apr 2016 17:09:07 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2016/04/20/ggt-japon/</guid>
+      <description>GGT in Kyoto
+A post shared by Nouchka (@nouchkablog) on Nov 27, 2017 at 8:26am PST</description>
+    </item>
+    
+    <item>
+      <title>Resolutions</title>
+      <link>https://nouchka.katagena.com/2016/01/10/resolutions/</link>
+      <pubDate>Sun, 10 Jan 2016 13:01:58 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2016/01/10/resolutions/</guid>
+      <description>Find a new job or at least check my options. (Already working on my CV)
+Eat less and less meat and cook vegan meal. (Already spend week without meat)
+Pass my symfony certification and my yachtmaster qualification. (Book finished)
+Continue learning swedish, work my english and my german. (Swedish 1&amp;frasl;3 done on Duolingo)
+Contribute more on github. (First docker container published)</description>
+    </item>
+    
+    <item>
+      <title>VPN and proxy on Ubuntu with NetworkManager</title>
+      <link>https://nouchka.katagena.com/2014/07/12/vpn-and-proxy-on-ubuntu-with-networkmanager/</link>
+      <pubDate>Sat, 12 Jul 2014 11:08:39 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/07/12/vpn-and-proxy-on-ubuntu-with-networkmanager/</guid>
+      <description>If you are using a VPN sometimes and you want to change the proxy settings when you launch your VPN:
+Create a file in directory /etc/NetworkManager/dispatcher.d/
+/etc/NetworkManager/dispatcher.d/20proxyvpn
+#!/bin/bash IF=$1 STATUS=$2 if [ &#34;$IF&#34; == &#34;tun0&#34; ] then case &#34;$2&#34; in vpn-up) logger -s &#34;$0 Script up triggered&#34; gsettings set org.gnome.system.proxy autoconfig-url &#34;http://yourdomain.lan/proxy.pac&#34; gsettings set org.gnome.system.proxy mode &#34;auto&#34; ;; vpn-down) logger -s &#34;$0 Script down triggered&#34; gsettings set org.gnome.system.proxy mode &#34;none&#34; ;; pre-up) ;; post-down) ;; *) ;; esac fi  This bash script will be trigger when a connexion is up or down.</description>
+    </item>
+    
+    <item>
+      <title>Coupe du monde</title>
+      <link>https://nouchka.katagena.com/2014/07/12/coupe-du-monde/</link>
+      <pubDate>Sat, 12 Jul 2014 11:00:53 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/07/12/coupe-du-monde/</guid>
+      <description>Juste une petite pensée sur le cout de la coupe du monde.
+Je viens encore de lire que celle-ci coutait cher, que c&amp;#8217;était une érreur du gouvernement brésilien et je pense que c&amp;#8217;est une vision un peu trop simple de la situation.
+Tout d&amp;#8217;abord l&amp;#8217;argent circule et un état doit avoir une vision globale de ses dépenses: on doit donc se demander où les millards dépensés sont partis. Si ils sont partis dans des entreprises brésiliennes, qui ont employé du monde, cela profitera à toute l&amp;#8217;économie du pays.</description>
+    </item>
+    
+    <item>
+      <title>Socket.io</title>
+      <link>https://nouchka.katagena.com/2014/05/02/socket-io/</link>
+      <pubDate>Fri, 02 May 2014 15:58:46 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/05/02/socket-io/</guid>
+      <description>Socket.io is a javascript web application on nodejs. It uses diffents transports methods depending on the browser.
+I use it on 2 purposes:
+&amp;#8211; make browser client refresh some ressources when there are a change: a news section for example.
+&amp;#8211; alert when there are simultaneous change of a ressource: a change on a planning (http://www.katagena.com/setagaya/demo.php)
+I have 2 projects using this technology:
+&amp;#8211; a dashboard with live status from different server: uptime values will refresh live</description>
+    </item>
+    
+    <item>
+      <title>Performances monitoring</title>
+      <link>https://nouchka.katagena.com/2014/03/21/performances-monitoring/</link>
+      <pubDate>Fri, 21 Mar 2014 11:39:10 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/03/21/performances-monitoring/</guid>
+      <description>If you want to monitor a website you can setup easily a regular cron to check the performances.
+You just need PhantomJS which is a headless browser. For a 64bits version:
+if ! which bzip2 &amp;gt;/dev/null; then apt-get install bzip2 fi if ! [ -f &amp;quot;/usr/local/bin/phantomjs&amp;quot; ]; then cd /tmp/ wget https://phantomjs.googlecode.com/files/phantomjs-1.9.2-linux-i686.tar.bz2 tar xvf phantomjs-1.9.2-linux-i686.tar.bz2 cp phantomjs-1.9.2-linux-i686/bin/phantomjs /usr/local/bin/ chmod +x /usr/local/bin/phantomjs fi  Then we will use confess.js script with PhantomJS.</description>
+    </item>
+    
+    <item>
+      <title>Debian package md5sum</title>
+      <link>https://nouchka.katagena.com/2014/03/04/debian-package-md5sum/</link>
+      <pubDate>Tue, 04 Mar 2014 10:33:08 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2014/03/04/debian-package-md5sum/</guid>
+      <description>If you manage a debian package, you sometimes need to restart a service after the setup. It&amp;#8217;s generally done in the postinst script. But sometimes you didn&amp;#8217;t have change configuration files and you don&amp;#8217;t want to restart the service.
+Here a simple example where postinst script will check if configuration files have changed and restart service only when necessary.
+In this example, my package contains virtual hosts for apache server. I will make a md5sum of the files before the setup of my new version of the package.</description>
+    </item>
+    
+    <item>
+      <title>DSK et l’info en continue</title>
+      <link>https://nouchka.katagena.com/2011/05/19/dsk-et-linfo-en-continue/</link>
+      <pubDate>Thu, 19 May 2011 22:31:06 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2011/05/19/dsk-et-linfo-en-continue/</guid>
+      <description>Les chaines françaises sont en pleine effervescence avec l&amp;#8217;affaire DSK; la palme pour iTélé, chaine de Canal+, avec le bandeau qui pique le plus les yeux contenant :
+ un logo &amp;#8220;Direct&amp;#8221; en haut à droite (direct lorsqu&amp;#8217;on repasse en boucle les mêmes images c&amp;#8217;est un peu limite; la rediffusion est en direct on va dire) un bon bandeau en bas composé de :  l&amp;#8217;heure a gauche le logo de la chaine qui bouge en 3D un sous-bandeau &amp;#8220;Edition Speciale&amp;#8221; avec:  Un intitulé &amp;#8220;Direct info&amp;#8221; qui est animé avec une sorte de zoom Le contenu de l&amp;#8217;information &amp;#8220;DSK etc&amp;#8230;&amp;#8221; Encore un intitulé animé avec &amp;#8220;L&amp;#8217;affaire DSK&amp;#8221;, sa photo; au cas où on débarque et qu&amp;#8217;on soit pas au courant&amp;#8230;  Un 2nd sous-bandeau avec en alternance:  Un gros titre &amp;#8220;Urgent/Affaire DSK&amp;#8221; plus l&amp;#8217;info en dessous; le caractère urgent reste à démontrer et pour l&amp;#8217;affaire juste une répétition de plus Le bandeau *classique* avec les différents thèmes et l&amp;#8217;information en dessous &amp;#8220;Les talibans&amp;#8230;&amp;#8221; trop tard pour la suite on est repassé sur l&amp;#8217;autre    Sur le fond, je pense à Bart qui sur son tableau dois copier &amp;#8220;Laissons la greffe d&amp;#8217;organe aux professionnels&amp;#8221;: de même laissons les enquêtes et la justice aux professionnels.</description>
+    </item>
+    
+    <item>
+      <title>IPhone Tracker and Android</title>
+      <link>https://nouchka.katagena.com/2011/04/22/iphone-tracker-and-android/</link>
+      <pubDate>Fri, 22 Apr 2011 08:29:17 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2011/04/22/iphone-tracker-and-android/</guid>
+      <description>Cette semaine a été marquée par la révélation sur le fichier consolidated.db présent sur les IPhones contenant les localisations du téléphone.
+Pour ceux intéréssés par visualiser leurs données, la page http://www.courbis.fr/Localisation-iPhone-votre.html détaille bien la structure de la table sqlite en question et parser le fichier est assez simple avec un petit script en php.
+Dans la foulée de cette révélation, des articles ont rapidement indiqué qu&amp;#8217;Android faisait de même et des projets permettent également de parcourir ces informations (https://github.</description>
+    </item>
+    
+    <item>
+      <title>Bug Munin&#43;tomcat</title>
+      <link>https://nouchka.katagena.com/2011/04/20/bug-munintomcat/</link>
+      <pubDate>Wed, 20 Apr 2011 22:27:48 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2011/04/20/bug-munintomcat/</guid>
+      <description>Munin permet de monitorer différents serveurs via des scripts (en perl ou autres). Parmi les scripts disponibles, 4 scripts permettent de monitorer un serveur tomcat.
+Cependant les versions anciennes de ces scripts comportent un bug http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=543523.
+Le script appelle l&amp;#8217;url /manager/status?XML=true sur le serveur tomcat (équivalent du server-status apache) et parse les informations. Or la structure du fichier xml est différente de celle attendue par le script. Le problème se situe au niveau du tag connector, &amp;#8216;http-$PORT&amp;#8217; au lieu de &amp;#8216;http$PORT&amp;#8217;</description>
+    </item>
+    
+    <item>
+      <title>Down The Way</title>
+      <link>https://nouchka.katagena.com/2010/10/23/down-the-way/</link>
+      <pubDate>Sat, 23 Oct 2010 18:19:11 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/10/23/down-the-way/</guid>
+      <description>#angusjuliastone #vinyle #angusandjuliastone #lp
+A post shared by dmr (@vinyles59) on Oct 12, 2017 at 6:38am PDT
+ 
+Très bon album, bientôt à Bordeaux
+http://www.angusandjuliastone.com/</description>
+    </item>
+    
+    <item>
+      <title>Départ de Levallois</title>
+      <link>https://nouchka.katagena.com/2010/07/30/depart-de-levallois/</link>
+      <pubDate>Fri, 30 Jul 2010 15:42:25 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/07/30/depart-de-levallois/</guid>
+      <description>Derniers jours à Smile Levallois.
+Merci à tous pour ces 3 bonnes années.
+Merci pour le pot de départ.
+J&amp;#8217;espère à bientôt</description>
+    </item>
+    
+    <item>
+      <title>Donnez</title>
+      <link>https://nouchka.katagena.com/2010/07/23/donnez/</link>
+      <pubDate>Fri, 23 Jul 2010 15:38:17 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/07/23/donnez/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Amsterdam</title>
+      <link>https://nouchka.katagena.com/2010/07/14/amsterdam/</link>
+      <pubDate>Wed, 14 Jul 2010 15:40:16 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/07/14/amsterdam/</guid>
+      <description>La GGT était en voyage à Amsterdam
+ Amsterdam
+A post shared by Nouchka (@nouchkablog) on Nov 27, 2017 at 8:32am PST</description>
+    </item>
+    
+    <item>
+      <title>Main square 2010</title>
+      <link>https://nouchka.katagena.com/2010/07/02/main-square-2010/</link>
+      <pubDate>Fri, 02 Jul 2010 15:35:11 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/07/02/main-square-2010/</guid>
+      <description>Seconde fois au Main Square, sur un nouveau site.
+Concerts de Rammstein et Bloody Beetroots inoubliables. Black Eyed Peas, M, Pink très bons également.</description>
+    </item>
+    
+    <item>
+      <title>Hellfest 2010</title>
+      <link>https://nouchka.katagena.com/2010/06/18/hellfest-2010/</link>
+      <pubDate>Fri, 18 Jun 2010 15:33:53 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/06/18/hellfest-2010/</guid>
+      <description>Premier Hellfest. Ambiance bonne enfant.</description>
+    </item>
+    
+    <item>
+      <title>Muse</title>
+      <link>https://nouchka.katagena.com/2010/06/11/muse/</link>
+      <pubDate>Fri, 11 Jun 2010 15:30:45 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/06/11/muse/</guid>
+      <description>Muse
+A post shared by Nouchka (@nouchkablog) on Nov 27, 2017 at 8:31am PST
+ 
+Première fois au stade de France. Très bon concert.
+Par contre, problème de voiture: retour à Fontainebleau à 5h du mat&amp;#8230;.</description>
+    </item>
+    
+    <item>
+      <title>Camilla Läckberg</title>
+      <link>https://nouchka.katagena.com/2010/05/30/camilla-lackberg/</link>
+      <pubDate>Sun, 30 May 2010 15:27:25 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/05/30/camilla-lackberg/</guid>
+      <description>Ännu en Läckberg! I en hummertina hittas en död flicka. Snabbt konstateras dock att det inte är en olyckshändelse, eftersom flickan har sötvatten, tvålrester, och&amp;hellip;aska&amp;hellip; i lungorna. Flickan betraktades av många som ett problembarn, men kunde detta vara tillräckligt för att ta livet av henne? Handlingen lyfter fram många av mänsklighetens fula sidor; misstänksamhet mot de som inte passar in i den gängse mallen, människor som gör allt för att vara andra tilllags, människor som går över lik (bildligt och bokstavligt) för att få det de vill ha, missunsamhet, fördomar etc.</description>
+    </item>
+    
+    <item>
+      <title>Espagne</title>
+      <link>https://nouchka.katagena.com/2010/05/15/espagne/</link>
+      <pubDate>Sat, 15 May 2010 15:19:28 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/05/15/espagne/</guid>
+      <description>Cullera
+A post shared by Nouchka (@nouchkablog) on Nov 27, 2017 at 8:29am PST
+ 
+Vacances en Espagne à Cullera</description>
+    </item>
+    
+    <item>
+      <title>Lyon</title>
+      <link>https://nouchka.katagena.com/2010/05/07/lyon/</link>
+      <pubDate>Fri, 07 May 2010 15:07:41 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/05/07/lyon/</guid>
+      <description>Lyon
+A post shared by Nouchka (@nouchkablog) on Nov 27, 2017 at 8:30am PST
+ 
+Découverte de Lyon</description>
+    </item>
+    
+    <item>
+      <title>Kick Ass</title>
+      <link>https://nouchka.katagena.com/2010/05/01/kick-ass/</link>
+      <pubDate>Sat, 01 May 2010 14:56:24 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/05/01/kick-ass/</guid>
+      <description>Kick-ass
+A post shared by ♛WE CAN KICK-ASS♛ (@kickass_movie) on Feb 1, 2014 at 12:16am PST
+ 
+bonne surprise</description>
+    </item>
+    
+    <item>
+      <title>VAIO</title>
+      <link>https://nouchka.katagena.com/2010/04/26/vaio/</link>
+      <pubDate>Mon, 26 Apr 2010 19:49:25 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/04/26/vaio/</guid>
+      <description>Dernier achat : Sony &amp;#8211; VAIO VPC-F11E4E
+A tester bientôt avec la dernière ubuntu</description>
+    </item>
+    
+    <item>
+      <title>La Princesse des glaces</title>
+      <link>https://nouchka.katagena.com/2010/04/02/la-princesse-des-glaces/</link>
+      <pubDate>Fri, 02 Apr 2010 07:47:42 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/04/02/la-princesse-des-glaces/</guid>
+      <description>Je souhaite commencer la série de Camilla Lackberg mais je ne me vois pas rattraper tout le retard alors je vais les lire en BD . Voici le premier tome. Le 2ème tome va être au pied du sapin et le 3 ème tome sort en février. A raisin d&amp;#39;une tome tous les 2 ans cela devrait le faire 😁😁😁😁 #camillalackberg
+A post shared by Syl Bie (@syl_bie_lit) on Nov 25, 2017 at 6:52am PST</description>
+    </item>
+    
+    <item>
+      <title>DAViCal</title>
+      <link>https://nouchka.katagena.com/2010/03/18/davical/</link>
+      <pubDate>Thu, 18 Mar 2010 22:44:01 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/03/18/davical/</guid>
+      <description>Disponible en package debian
+Nécessite une base de données postgreSQL
+Interface d&amp;#8217;admin web. Possibilités d&amp;#8217;importer des calendriers existants.
+Compatible multi-plateformes. Multi-users. Calendriers privés ou publiques.
+http://www.davical.org/</description>
+    </item>
+    
+    <item>
+      <title>Coeur de Pirate</title>
+      <link>https://nouchka.katagena.com/2010/03/16/coeur-de-pirate/</link>
+      <pubDate>Tue, 16 Mar 2010 16:12:49 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2010/03/16/coeur-de-pirate/</guid>
+      <description>#tbt la photo des @studioharcourt qui fait surface des années plus tard, coucouuuuuu 😘
+A post shared by Coeur De Pirate (@beatricepirate) on Dec 22, 2016 at 5:29am PST
+ 
+Coeur de Pirate &amp;#8211; Place de la république</description>
+    </item>
+    
+  </channel>
+</rss>
