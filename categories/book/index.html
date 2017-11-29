@@ -65,6 +65,16 @@
 
     
       
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-36917950-1', 'auto');
+ga('send', 'pageview');
+</script>
+
     
     
   </head>
@@ -414,6 +424,24 @@ A post shared by Syl Bie (@syl_bie_lit) on Nov 25, 2017 at 6:52am PST
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://nouchka.katagena.com/2017/11/29/docker-multiple-tags-with-one-branch/">
+                <h3 class="media-heading">Docker multiple tags with one branch</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">If you manage multiple docker images on docker hub, you want to make the support the easiest possible. But most of the time you start creating tags because your application follow the version of another application or you just want to try using the new debian image.
+To create tag, docker hub provides you the Build settings page where you can declare tags, giving you 2 options: * use branch (Docker hub does it automatically, but you can do more specific stuff with it) * use different Dockerfile files Both are not perfect because branches need to be merge and multiple dockerfile results in duplicate code most of the time.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://nouchka.katagena.com/2017/01/28/hearthstone-casual-gaming/">
                 <h3 class="media-heading">Hearthstone – Casual Gaming</h3>
               </a>
@@ -587,25 +615,6 @@ if ! which bzip2 &gt;/dev/null; then apt-get install bzip2 fi if ! [ -f &quot;/u
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://nouchka.katagena.com/2014/03/04/debian-package-md5sum/">
-                <h3 class="media-heading">Debian package md5sum</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2014
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">If you manage a debian package, you sometimes need to restart a service after the setup. It&#8217;s generally done in the postinst script. But sometimes you didn&#8217;t have change configuration files and you don&#8217;t want to restart the service.
-Here a simple example where postinst script will check if configuration files have changed and restart service only when necessary.
-In this example, my package contains virtual hosts for apache server. I will make a md5sum of the files before the setup of my new version of the package.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -613,7 +622,7 @@ In this example, my package contains virtual hosts for apache server. I will mak
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         28 posts found
+         29 posts found
       </p>
     </div>
   </div>

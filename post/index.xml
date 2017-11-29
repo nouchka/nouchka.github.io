@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jan 2017 22:04:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2017 19:04:23 +0000</lastBuildDate>
     
 	<atom:link href="https://nouchka.katagena.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker multiple tags with one branch</title>
+      <link>https://nouchka.katagena.com/2017/11/29/docker-multiple-tags-with-one-branch/</link>
+      <pubDate>Wed, 29 Nov 2017 19:04:23 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2017/11/29/docker-multiple-tags-with-one-branch/</guid>
+      <description>If you manage multiple docker images on docker hub, you want to make the support the easiest possible. But most of the time you start creating tags because your application follow the version of another application or you just want to try using the new debian image.
+To create tag, docker hub provides you the Build settings page where you can declare tags, giving you 2 options: * use branch (Docker hub does it automatically, but you can do more specific stuff with it) * use different Dockerfile files Both are not perfect because branches need to be merge and multiple dockerfile results in duplicate code most of the time.</description>
+    </item>
     
     <item>
       <title>Hearthstone – Casual Gaming</title>
