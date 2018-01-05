@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Jean-Avit Promis - Actual life and death I&#39;ve given up on that.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 19:04:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 19:04:23 +0000</lastBuildDate>
     
 	<atom:link href="https://nouchka.katagena.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Résolutions 2018</title>
+      <link>https://nouchka.katagena.com/2018/01/01/resolutions/</link>
+      <pubDate>Mon, 01 Jan 2018 19:04:23 +0000</pubDate>
+      
+      <guid>https://nouchka.katagena.com/2018/01/01/resolutions/</guid>
+      <description>Vie perso:
+ Reprendre le sport (Gainage/Course/Marche/Vélo) Duolingo: Finir le japonais et maintenir le suédois à jour Passer le permis bateau Savoir rester serein (Headspace) Passer moins de temps sur youtube/instagram ou sur les séries Se coucher tot Utiliser le moins possible la voiture  Travail:
+ Finir mon support et donner une formation Trouver des missions et atteindre un équilibre financier  Home:
+ Refaire le ciment Repeindre les volets Entretenir le portail  Jardin:</description>
+    </item>
     
     <item>
       <title>Docker multiple tags with one branch</title>
