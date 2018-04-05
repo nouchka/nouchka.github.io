@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nouchka.katagena.com/2018/04/04/permaculture/</loc>
+    <lastmod>2018-04-04T15:27:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nouchka.katagena.com/2018/03/02/venise/</loc>
+    <lastmod>2018-03-02T15:27:25+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nouchka.katagena.com/2018/02/01/camilla-lackberg-sorciere/</loc>
     <lastmod>2018-02-01T15:27:25+00:00</lastmod>
   </url>
@@ -162,11 +172,6 @@
   </url>
   
   <url>
-    <loc>https://nouchka.katagena.com/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nouchka.katagena.com/archives/</loc>
     <priority>0</priority>
   </url>
@@ -196,6 +201,12 @@
   </url>
   
   <url>
+    <loc>https://nouchka.katagena.com/categories/garden/</loc>
+    <lastmod>2018-04-04T15:27:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nouchka.katagena.com/tags/ggt/</loc>
     <lastmod>2016-04-20T17:09:07+00:00</lastmod>
     <priority>0</priority>
@@ -203,7 +214,7 @@
   
   <url>
     <loc>https://nouchka.katagena.com/</loc>
-    <lastmod>2018-02-01T15:27:25+00:00</lastmod>
+    <lastmod>2018-04-04T15:27:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,7 +244,7 @@
   
   <url>
     <loc>https://nouchka.katagena.com/post/</loc>
-    <lastmod>2018-02-01T15:27:25+00:00</lastmod>
+    <lastmod>2018-04-04T15:27:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -251,7 +262,7 @@
   
   <url>
     <loc>https://nouchka.katagena.com/categories/travel/</loc>
-    <lastmod>2016-04-20T17:09:07+00:00</lastmod>
+    <lastmod>2018-03-02T15:27:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
